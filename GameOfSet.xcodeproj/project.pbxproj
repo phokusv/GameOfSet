@@ -13,6 +13,11 @@
 		3095247B2143FEF90033BD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3095247A2143FEF90033BD2D /* Assets.xcassets */; };
 		3095247E2143FEF90033BD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3095247C2143FEF90033BD2D /* LaunchScreen.storyboard */; };
 		309524892143FEF90033BD2D /* GameOfSetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309524882143FEF90033BD2D /* GameOfSetUITests.swift */; };
+		309524942143FF390033BD2D /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309524932143FF390033BD2D /* Carte.swift */; };
+		30952496214401050033BD2D /* setDeCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30952495214401050033BD2D /* setDeCarte.swift */; };
+		30A308482144867E005AD5CB /* BoutonDeCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A308472144867E005AD5CB /* BoutonDeCarte.swift */; };
+		30A3084A214D4CED005AD5CB /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A30849214D4CED005AD5CB /* Joueur.swift */; };
+		30A3084C214D4D14005AD5CB /* JeuDeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3084B214D4D14005AD5CB /* JeuDeSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		309524842143FEF90033BD2D /* GameOfSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		309524882143FEF90033BD2D /* GameOfSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfSetUITests.swift; sourceTree = "<group>"; };
 		3095248A2143FEF90033BD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309524932143FF390033BD2D /* Carte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = "<group>"; };
+		30952495214401050033BD2D /* setDeCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setDeCarte.swift; sourceTree = "<group>"; };
+		30A308472144867E005AD5CB /* BoutonDeCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonDeCarte.swift; sourceTree = "<group>"; };
+		30A30849214D4CED005AD5CB /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		30A3084B214D4D14005AD5CB /* JeuDeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuDeSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				3095247A2143FEF90033BD2D /* Assets.xcassets */,
 				3095247C2143FEF90033BD2D /* LaunchScreen.storyboard */,
 				3095247F2143FEF90033BD2D /* Info.plist */,
+				30A308472144867E005AD5CB /* BoutonDeCarte.swift */,
+				309524932143FF390033BD2D /* Carte.swift */,
+				30A30849214D4CED005AD5CB /* Joueur.swift */,
+				30A3084B214D4D14005AD5CB /* JeuDeSet.swift */,
+				30952495214401050033BD2D /* setDeCarte.swift */,
 			);
 			path = GameOfSet;
 			sourceTree = "<group>";
@@ -198,7 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				309524762143FEF60033BD2D /* ViewController.swift in Sources */,
+				30952496214401050033BD2D /* setDeCarte.swift in Sources */,
+				309524942143FF390033BD2D /* Carte.swift in Sources */,
+				30A308482144867E005AD5CB /* BoutonDeCarte.swift in Sources */,
 				309524742143FEF60033BD2D /* AppDelegate.swift in Sources */,
+				30A3084C214D4D14005AD5CB /* JeuDeSet.swift in Sources */,
+				30A3084A214D4CED005AD5CB /* Joueur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
